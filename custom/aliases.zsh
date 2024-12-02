@@ -12,7 +12,6 @@ alias gproxy="gcloud run services proxy"
 
 # activate conda envs
 alias py312="conda activate py312"
-
 alias base="conda activate base"
 
 # start and stop workstation
@@ -24,5 +23,6 @@ alias stopws="cd /Users/sck/32health && sh /Users/sck/32health/initialize.sh sto
 alias sleep="pmset sleepnow"
 alias restart="sudo shutdown -r now"
 
+# test zsh alias 
 alias hi="echo 'Hello, $USER'"
 alias bye="echo 'Goodbye, $USER'"
