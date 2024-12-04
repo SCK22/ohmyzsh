@@ -2,9 +2,9 @@
 from __future__ import print_function
 
 import os
-import sys
 import re
-from subprocess import Popen, PIPE, check_output
+import sys
+from subprocess import PIPE, Popen, check_output
 
 
 def get_tagname_or_hash():
