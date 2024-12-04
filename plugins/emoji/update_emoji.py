@@ -2,8 +2,8 @@
 Update Emoji.py
 Refreshes OMZ emoji database based on the latest Unicode spec
 """
-import re
 import json
+import re
 
 spec = open("emoji-data.txt", "r")
 

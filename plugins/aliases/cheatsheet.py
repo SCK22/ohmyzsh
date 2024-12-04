@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-import sys
-import itertools
-import termcolor
 import argparse
+import itertools
+import sys
+
+import termcolor
+
 
 def parse(line):
     left = line[0:line.find('=')].strip()
