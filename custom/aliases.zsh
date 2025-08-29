@@ -9,9 +9,9 @@ alias up='cd ..'
 # gcloud 
 alias gca="gcloud auth application-default login"
 alias gcl="gcloud auth login"
-alias gsetdev="gcloud config set project development-366017"
-alias gsetai="gcloud config set project ai-research-392809"
-alias gsetuat="gcloud config set project uatest-399720"
+alias gsetdev="gcloud config set project development-366017 && export PROJECT_ID=development-366017"
+alias gsetai="gcloud config set project ai-research-392809 && export PROJECT_ID=ai-research-392809"
+alias gsetuat="gcloud config set project uatest-399720 && export PROJECT_ID=uatest-399720"
 alias gproxy="gcloud run services proxy"
 alias ggp="gcloud config get project"
 
@@ -36,4 +36,10 @@ alias black="black ."
 alias hi="echo 'Hello, $USER'"
 alias bye="echo 'Goodbye, $USER'"
 alias morning="echo 'Good morning, $USER', todays date and time is $(date) && brew update"
-# alias greatgreatmorning="echo 'Good morning, $USER', todays date and time is $(date) && brew update && brew upgrade"
+alias greatgreatmorning="echo 'Good morning, $USER', todays date and time is $(date) && brew update && brew upgrade"
+
+alias di='docker inspect'
+
+# github cli custom
+alias ghpr="gh pr create"
+alias ghcopilotreview="gh request-copilot-review"
